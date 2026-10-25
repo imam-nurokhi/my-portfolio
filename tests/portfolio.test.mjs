@@ -140,3 +140,9 @@ test("file is meaningfully smaller than the original", { skip: !!process.env.BAS
   assert.ok(bytes < ORIGINAL_BYTES * 0.8, `${bytes} bytes is not at least 20% smaller`);
   assert.ok(readFileSync(FILE, "utf8").startsWith("<!doctype html>"));
 });
+
+test("old /portfolio.html URL redirects to the root", { skip: !process.env.BASE_URL }, async () => {
+  const res = await fetch(new URL("/portfolio.html", process.env.BASE_URL), { redirect: "manual" });
+  assert.ok([301, 308].includes(res.status), `got ${res.status}`);
+  assert.equal(new URL(res.headers.get("location"), process.env.BASE_URL).pathname, "/");
+});
