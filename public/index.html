@@ -1,0 +1,872 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Muhammad Imam Nurokhi | Tech Lead &amp; Software Architect, Jakarta</title>
+<meta name="description" content="Tech Lead at Nexora Technology with 11+ years in software architecture, IT business analysis, enterprise platforms and governed AI-assisted engineering. Jakarta, Indonesia.">
+<meta name="author" content="Muhammad Imam Nurokhi">
+<link rel="canonical" href="https://portfolio-nu-azure-20.vercel.app/">
+<meta name="robots" content="index, follow, max-image-preview:large">
+<meta name="theme-color" content="#F5F3EC" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0B1524" media="(prefers-color-scheme: dark)">
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="Muhammad Imam Nurokhi">
+<meta property="og:title" content="Muhammad Imam Nurokhi | Tech Lead &amp; Software Architect">
+<meta property="og:description" content="Ideas into systems. Systems into impact. Tech Lead, software architecture, IT business analysis and governed AI-assisted engineering.">
+<meta property="og:url" content="https://portfolio-nu-azure-20.vercel.app/">
+<meta property="og:locale" content="en_US">
+<meta property="og:locale:alternate" content="id_ID">
+<meta property="profile:first_name" content="Muhammad Imam">
+<meta property="profile:last_name" content="Nurokhi">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="Muhammad Imam Nurokhi | Tech Lead &amp; Software Architect">
+<meta name="twitter:description" content="Tech Lead, software architecture, IT business analysis and governed AI-assisted engineering.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ccircle cx='32' cy='32' r='29' fill='%23F5F3EC' stroke='%2314243D' stroke-width='4'/%3E%3Ctext x='32' y='42' font-family='Arial' font-weight='800' font-size='28' text-anchor='middle' fill='%2314243D'%3Ei.n%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<script type="application/ld+json">
+{"@context":"https://schema.org","@graph":[
+{"@type":"WebSite","@id":"https://portfolio-nu-azure-20.vercel.app/#website","url":"https://portfolio-nu-azure-20.vercel.app/","name":"Muhammad Imam Nurokhi","inLanguage":["en","id"]},
+{"@type":"ProfilePage","@id":"https://portfolio-nu-azure-20.vercel.app/#profile","url":"https://portfolio-nu-azure-20.vercel.app/","isPartOf":{"@id":"https://portfolio-nu-azure-20.vercel.app/#website"},"dateModified":"2026-10-25","mainEntity":{"@id":"https://portfolio-nu-azure-20.vercel.app/#person"}},
+{"@type":"Person","@id":"https://portfolio-nu-azure-20.vercel.app/#person","name":"Muhammad Imam Nurokhi","alternateName":"Imam Nurokhi","jobTitle":"Tech Lead","worksFor":{"@type":"Organization","name":"Nexora Technology"},"address":{"@type":"PostalAddress","addressLocality":"Jakarta","addressCountry":"ID"},"email":"mailto:mimamnuro@gmail.com","alumniOf":{"@type":"CollegeOrUniversity","name":"Universitas Indonesia"},"description":"Tech Lead focused on software architecture, IT business analysis, enterprise platforms and governed AI-assisted engineering automation.","knowsAbout":["Technical Leadership","Software Architecture","IT Business Analysis","AI-Assisted Engineering","Enterprise Application Development","Go","Java","Spring Boot","Node.js","React","Next.js","PostgreSQL","Multi-Tenant SaaS","OIDC","RBAC","Model Context Protocol"],"sameAs":["https://id.linkedin.com/in/muhammad-imam-nurokhi","https://github.com/imam-nurokhi"]},
+{"@type":"ItemList","name":"Selected projects","itemListElement":[
+{"@type":"ListItem","position":1,"item":{"@type":"CreativeWork","name":"NEXONE","description":"Project and delivery platform. Production (internal). Role: Tech Lead with hands-on integration and authorization work."}},
+{"@type":"ListItem","position":2,"item":{"@type":"CreativeWork","name":"KMS","description":"Knowledge and document management (ISO 9001 clause 7.5). Production since October 2026."}},
+{"@type":"ListItem","position":3,"item":{"@type":"CreativeWork","name":"Nexora SuperApp and SSO (OIDC)","description":"Single login and app gateway. Development and staging. Role: architect (SPEC-001)."}},
+{"@type":"ListItem","position":4,"item":{"@type":"CreativeWork","name":"AI Agent Harness","description":"Governed AI engineering harness with isolated Git worktrees and owner approval. Live internal."}},
+{"@type":"ListItem","position":5,"item":{"@type":"CreativeWork","name":"OneAlpha","description":"Certification-body CRM and audit platform. Production, under modernisation."}}
+]}]}
+</script>
+<style>
+/* ===== tokens: navy / broken white ===== */
+:root{
+  --bg:#F5F3EC; --paper:#FFFDF7; --card:#F7F5EF; --ink:#14243D; --muted:#5F6C7D; --line:#D9DFE7;
+  --accent:#274A78; --accent-2:#8FAACA; --deep:#0C1C35; --deep-ink:#F6F4EE; --deep-muted:#A9B4C2; --deep-line:rgba(220,230,244,.18);
+  --g0:#7D6BB3; --g1:#3B6FB6; --g2:#B9821A; --g3:#C2612C; --g4:#2B8660; --g5:#14243D;
+  --sans:"Manrope", "Segoe UI", system-ui, -apple-system, sans-serif;
+  --mono:"DM Mono", ui-monospace, "SFMono-Regular", Menlo, monospace;
+  --wrap:1280px; --head:76px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#0B1524; --paper:#0F1C2E; --card:#13233A; --ink:#E9EEF5; --muted:#9DAEC2; --line:#24364F;
+    --accent:#8FB0DA; --accent-2:#6C8FBF; --deep:#07111F;
+    --g0:#A795E6; --g1:#79A6F0; --g2:#E2B04A; --g3:#EE8A55; --g4:#4FC890; --g5:#E9EEF5;
+    color-scheme:dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#0B1524; --paper:#0F1C2E; --card:#13233A; --ink:#E9EEF5; --muted:#9DAEC2; --line:#24364F;
+  --accent:#8FB0DA; --accent-2:#6C8FBF; --deep:#07111F;
+  --g0:#A795E6; --g1:#79A6F0; --g2:#E2B04A; --g3:#EE8A55; --g4:#4FC890; --g5:#E9EEF5;
+  color-scheme:dark;
+}
+:root{box-sizing:border-box;padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + var(--head) + 8px);-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1rem/1.7 var(--sans);-webkit-font-smoothing:antialiased;overflow-x:hidden}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:120;background:var(--bg)}
+img{max-width:100%;display:block}
+a{color:inherit}
+button{font:inherit;color:inherit;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:4px;border-radius:3px}
+::selection{background:var(--accent);color:var(--paper)}
+.wrap{width:min(calc(100% - 9vw),var(--wrap));margin-inline:auto}
+.sr-only{position:absolute!important;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap}
+.skip{position:absolute;left:16px;top:-80px;z-index:200;background:var(--paper);padding:12px 16px;border:1px solid var(--line)}
+.skip:focus{top:calc(env(safe-area-inset-top,0px) + 10px)}
+.mono{font-family:var(--mono);font-size:.72rem;letter-spacing:.07em}
+.ar{width:1em;height:1em;display:inline-block;vertical-align:-.12em;flex:none}
+.star{font-family:var(--mono)}
+
+/* progress */
+.progress{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:3px;z-index:130;pointer-events:none}
+.progress span{display:block;height:100%;background:var(--accent);transform:scaleX(0);transform-origin:left}
+
+/* ===== header ===== */
+.top{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;height:var(--head);z-index:110;display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 4.5vw;background:color-mix(in srgb,var(--bg) 90%,transparent);backdrop-filter:blur(16px);-webkit-backdrop-filter:blur(16px);border-bottom:1px solid color-mix(in srgb,var(--line) 70%,transparent);transition:box-shadow .3s}
+.top.scrolled{box-shadow:0 8px 30px rgba(12,28,53,.06)}
+.brand{display:flex;align-items:center;gap:12px;text-decoration:none;min-width:0}
+.brand-mark{flex:none;white-space:nowrap;width:46px;height:46px;border:2px solid var(--ink);border-radius:50%;display:flex;align-items:center;justify-content:center;font-weight:800;font-size:22px;letter-spacing:-1.5px;line-height:1}
+.brand-mark b{color:var(--accent)}
+.brand-name{font-weight:800;font-size:.72rem;letter-spacing:.12em;line-height:1.5;white-space:nowrap}
+.brand-name small{display:block;font-weight:700;font-size:.6rem;color:var(--muted);letter-spacing:.14em}
+.nav{display:flex;gap:clamp(14px,2.2vw,32px)}
+.nav a{font-size:.8rem;font-weight:700;text-decoration:none;padding:6px 0;border-bottom:2px solid transparent;transition:color .2s,border-color .2s}
+.nav a:hover,.nav a.on{color:var(--accent);border-color:var(--accent)}
+.actions{display:flex;align-items:center;gap:10px}
+.lang,.theme{white-space:nowrap;background:transparent;border:1px solid var(--line);border-radius:999px;height:38px;min-width:38px;padding:0 12px;font:500 .72rem/1 var(--mono);color:var(--muted)}
+.lang b{color:var(--ink);font-weight:500}
+.theme{padding:0;display:grid;place-items:center}
+.lang:hover,.theme:hover{border-color:var(--ink)}
+.cta{display:inline-flex;align-items:center;gap:10px;font-size:.72rem;font-weight:800;letter-spacing:.06em;background:var(--ink);color:var(--bg);padding:13px 18px;border-radius:4px;text-decoration:none;transition:background .25s,transform .25s}
+.cta:hover{background:var(--accent);transform:translateY(-2px)}
+.burger{display:none;width:44px;height:44px;border:0;background:transparent;flex-direction:column;justify-content:center;align-items:center;gap:6px}
+.burger span{width:24px;height:2px;background:var(--ink);transition:transform .3s,opacity .3s}
+.burger[aria-expanded="true"] span:first-child{transform:translateY(4px) rotate(45deg)}
+.burger[aria-expanded="true"] span:last-child{transform:translateY(-4px) rotate(-45deg)}
+.mnav{position:fixed;left:0;right:0;top:calc(env(safe-area-inset-top,0px) + var(--head));z-index:105;background:var(--paper);padding:8px 5% 22px;border-bottom:1px solid var(--line);box-shadow:0 18px 30px rgba(12,28,53,.12);transform:translateY(-8px);opacity:0;visibility:hidden;transition:opacity .25s,transform .25s,visibility 0s .25s}
+.mnav.open{opacity:1;transform:none;visibility:visible;transition:opacity .25s,transform .25s}
+.mnav a{display:flex;justify-content:space-between;align-items:center;padding:16px 2px;border-bottom:1px solid var(--line);font-size:1.15rem;font-weight:700;text-decoration:none}
+.mnav a span{font:.7rem var(--mono);color:var(--muted)}
+
+/* ===== hero ===== */
+.hero{padding-top:calc(env(safe-area-inset-top,0px) + var(--head));position:relative;overflow:hidden}
+.grid-bg{position:absolute;inset:var(--head) 0 0;pointer-events:none;background-image:linear-gradient(to right,transparent calc(100% - 1px),color-mix(in srgb,var(--ink) 6%,transparent) 100%),linear-gradient(to bottom,transparent calc(100% - 1px),color-mix(in srgb,var(--ink) 6%,transparent) 100%);background-size:calc(100%/9) 110px;-webkit-mask-image:linear-gradient(to right,transparent,#000 45%,transparent);mask-image:linear-gradient(to right,transparent,#000 45%,transparent)}
+.hero-inner{position:relative;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:3vw;min-height:calc(100svh - var(--head) - 90px);padding:clamp(40px,6vh,70px) 0 30px}
+.kicker{display:flex;align-items:center;gap:12px;font:500 .7rem/1.4 var(--mono);letter-spacing:.07em}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--accent);box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 14%,transparent);flex:none}
+.title{font-weight:800;font-size:clamp(2.9rem,6.1vw,7.6rem);line-height:.99;letter-spacing:-.075em;margin:clamp(28px,4vh,44px) 0 clamp(24px,3.5vh,36px)}
+.title .ln{display:block;overflow:hidden;padding:0 .1em .04em 0}
+.title .ln>span{display:inline-block}
+.js .title .ln>span{animation:up 1s cubic-bezier(.22,1,.36,1) both}
+.js .title .ln:nth-child(2)>span{animation-delay:.1s}.js .title .ln:nth-child(3)>span{animation-delay:.2s}.js .title .ln:nth-child(4)>span{animation-delay:.3s}
+@keyframes up{from{opacity:0;transform:translateY(105%)}to{opacity:1;transform:none}}
+.outline{color:transparent;-webkit-text-stroke:1.5px var(--ink)}
+.acc{color:var(--accent)} .acc i{font-style:normal;color:var(--ink)}
+.hero-sub{display:flex;align-items:center;gap:28px;max-width:540px}
+.hero-sub p{margin:0;color:var(--muted);font-size:.98rem;line-height:1.75;max-width:400px}
+.circle{flex:none;width:62px;height:62px;border:1px solid color-mix(in srgb,var(--ink) 30%,transparent);border-radius:50%;display:grid;place-items:center;font-size:24px;text-decoration:none;transition:background .25s,color .25s,transform .35s,border-color .25s}
+.circle:hover{background:var(--accent);color:var(--paper);border-color:var(--accent);transform:rotate(-45deg)}
+.hero-visual{position:relative;display:flex;flex-direction:column;align-items:center;justify-content:center}
+.halo{position:absolute;width:86%;aspect-ratio:1;border-radius:50%;top:8%;left:10%;background:radial-gradient(circle,color-mix(in srgb,var(--accent) 12%,transparent),transparent 68%);pointer-events:none}
+.arch{position:relative;width:min(100%,430px);aspect-ratio:3/4;border-radius:999px 999px 20px 20px;overflow:hidden;border:1px solid var(--line);background:var(--card);box-shadow:0 30px 70px rgba(12,28,53,.12)}
+.arch img{width:100%;height:112%;object-fit:cover;transform:translate3d(0,-5%,0);will-change:transform}
+
+/* ===== shared section bits ===== */
+.num{display:flex;justify-content:space-between;align-items:center;color:var(--muted)}
+.h2{font-weight:800;font-size:clamp(2.4rem,5.4vw,5.6rem);line-height:1.06;letter-spacing:-.07em;margin:26px 0 20px}
+.h2 em{font-style:normal;color:var(--accent)}
+.h2 .soft{color:color-mix(in srgb,var(--ink) 38%,var(--bg))}
+.intro{color:var(--muted);max-width:470px;font-size:.95rem;line-height:1.85;margin:0}
+.head-row{display:flex;justify-content:space-between;align-items:end;gap:40px}
+.rv{opacity:1}
+.js .rv{opacity:0;transform:translateY(36px);transition:opacity .7s,transform .8s cubic-bezier(.22,1,.36,1)}
+.js .rv.in{opacity:1;transform:none}
+
+/* ===== about ===== */
+.about{background:var(--paper);padding:clamp(90px,12vw,150px) 0}
+.about .h2{margin-bottom:clamp(36px,5vw,60px)}
+.about-copy p{color:var(--muted);font-size:1rem;line-height:1.85;max-width:60ch;margin:0 0 16px}
+.about-copy p strong{color:var(--ink);font-weight:700}
+.facts{display:grid;grid-template-columns:repeat(4,1fr);max-width:1000px;border-top:1px solid var(--line);margin-top:30px}
+.facts div{padding:20px 14px 20px 0;border-bottom:1px solid var(--line)}
+.facts div+div{padding-left:22px;border-left:1px solid var(--line)}
+.facts strong{display:block;font-weight:800;font-size:clamp(2rem,3.4vw,2.9rem);letter-spacing:-.06em;line-height:1}
+.facts span{display:block;color:var(--muted);font-size:.85rem;margin-top:6px;line-height:1.4}
+/* ===== work ===== */
+.work{background:var(--paper);padding:clamp(90px,11vw,140px) 0}
+.controls{display:flex;justify-content:space-between;align-items:center;gap:20px;margin:clamp(40px,5vw,64px) 0 18px;border-bottom:1px solid var(--line)}
+.filters{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.filters::-webkit-scrollbar{display:none}
+.filter{border:0;border-bottom:2px solid transparent;background:transparent;padding:14px 16px;font-size:.8rem;font-weight:700;color:var(--muted);white-space:nowrap;min-height:44px;transition:color .2s,border-color .2s}
+.filter[aria-pressed="true"]{color:var(--ink);border-color:var(--accent)}
+.filter span{font:.62rem var(--mono);color:var(--accent);margin-left:6px}
+.count{color:var(--muted);white-space:nowrap}
+.legend{display:flex;flex-wrap:wrap;gap:6px 18px;color:var(--muted);margin:0 0 22px}
+.legend span{display:inline-flex;align-items:center;gap:7px}
+.legend i{width:16px;height:6px;border-radius:2px;background:var(--c)}
+.legend i.wip{background:repeating-linear-gradient(135deg,var(--g2) 0 3px,transparent 3px 6px);outline:1px solid var(--g2)}
+.cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
+.pcard{position:relative;background:var(--card);border:1px solid var(--line);display:flex;flex-direction:column;min-height:330px;transition:transform .35s cubic-bezier(.22,1,.36,1),border-color .3s,background .3s,box-shadow .3s}
+.pcard:hover,.pcard:focus-within{transform:translateY(-6px);border-color:var(--accent-2);box-shadow:0 18px 40px rgba(12,28,53,.08)}
+.pcard[hidden]{display:none}
+.js .pcard.pre{opacity:0;transform:translateY(30px)}
+.pcard.show{transition:opacity .6s,transform .7s cubic-bezier(.22,1,.36,1),border-color .3s,box-shadow .3s}
+.c-top{display:flex;justify-content:space-between;align-items:center;gap:10px;padding:24px 24px 0;color:var(--muted)}
+.c-status{display:inline-flex;align-items:center;gap:7px;color:var(--ink);font-weight:500}
+.c-status::before{content:"";width:7px;height:7px;border-radius:50%;background:var(--c,var(--g4))}
+.pcard h3{margin:34px 24px 10px;font-size:clamp(1.35rem,1.8vw,1.75rem);letter-spacing:-.06em;line-height:1.15}
+.c-open{all:unset;cursor:pointer}
+.c-open::after{content:"";position:absolute;inset:0;z-index:1}
+.c-open:focus-visible::after{outline:2px solid var(--accent);outline-offset:-2px}
+.c-desc{margin:0 24px;color:var(--muted);font-size:.86rem;line-height:1.7}
+.tracks{padding:18px 24px 4px;display:grid;gap:10px}
+.t-head{display:flex;justify-content:space-between;gap:10px;font-size:.74rem;margin-bottom:5px}
+.t-head b{font-weight:700}
+.t-head span{color:var(--muted);text-align:right}
+.bars{display:grid;grid-template-columns:repeat(6,1fr);gap:4px}
+.bars i{height:6px;border-radius:2px;background:var(--line);position:relative;overflow:hidden}
+.bars i::after{content:"";position:absolute;inset:0;background:var(--c);transform:scaleX(0);transform-origin:left;transition:transform .45s ease-out;transition-delay:calc(var(--n)*.1s)}
+.bars i:nth-child(1){--c:var(--g0);--n:0}.bars i:nth-child(2){--c:var(--g1);--n:1}.bars i:nth-child(3){--c:var(--g2);--n:2}.bars i:nth-child(4){--c:var(--g3);--n:3}.bars i:nth-child(5){--c:var(--g4);--n:4}.bars i:nth-child(6){--c:var(--g5);--n:5}
+.bars i.on::after{transform:scaleX(1)}
+.bars i.wip::after{transform:scaleX(1);background:repeating-linear-gradient(135deg,var(--c) 0 3px,transparent 3px 6px)}
+.js .pcard:not(.show) .bars i::after{transform:scaleX(0)}
+.c-role{display:none}
+.c-foot{margin-top:auto;padding:16px 24px 18px;border-top:1px solid var(--line);display:flex;justify-content:space-between;align-items:center;gap:10px}
+.c-foot span{color:var(--muted);font-size:.68rem}
+.plus{color:var(--accent);font-size:1.3rem;line-height:1;transition:transform .35s}
+.pcard:hover .plus{transform:rotate(90deg)}
+.also{margin:24px 0 0;color:var(--muted);font-size:.9rem;line-height:1.8;max-width:900px}
+.also strong{color:var(--ink)}
+
+/* dialog */
+dialog.detail{width:min(600px,calc(100vw - 28px));max-height:min(86vh,760px);border:1px solid var(--line);padding:0;background:var(--paper);color:var(--ink);box-shadow:0 40px 120px rgba(12,28,53,.35);overflow:auto}
+dialog.detail::backdrop{background:rgba(12,28,53,.7);backdrop-filter:blur(8px)}
+dialog.detail[open]{animation:pop .35s cubic-bezier(.22,1,.36,1)}
+@keyframes pop{from{opacity:0;transform:translateY(16px) scale(.98)}to{opacity:1;transform:none}}
+.d-in{padding:28px}
+.d-head{display:flex;justify-content:space-between;align-items:center;gap:12px;color:var(--accent)}
+.close{width:42px;height:42px;border-radius:50%;border:1px solid var(--line);background:transparent;display:grid;place-items:center;font-size:1rem}
+.close:hover{background:var(--card)}
+.detail h2{font-size:clamp(1.9rem,6vw,3.2rem);line-height:1.02;letter-spacing:-.07em;margin:28px 0 18px}
+.detail p{color:var(--muted);line-height:1.8;margin:0 0 16px;font-size:.95rem}
+.d-label{display:block;font:.66rem var(--mono);letter-spacing:.07em;color:var(--accent);margin:22px 0 6px}
+.d-role{color:var(--ink)!important;font-weight:600}
+.d-tracks{display:grid;gap:10px}
+.d-foot{margin-top:28px;border-top:1px solid var(--line);padding-top:16px;display:flex;justify-content:space-between;color:var(--muted)}
+
+/* ===== AI lab ===== */
+.ai{background:var(--bg);padding:clamp(90px,11vw,140px) 0}
+.ai-list{list-style:none;margin:clamp(40px,5vw,60px) 0 0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:clamp(30px,5vw,70px);border-bottom:1px solid var(--line)}
+.ai-list li{padding:20px 0;border-top:1px solid var(--line)}
+.ai-list header{display:flex;justify-content:space-between;align-items:baseline;gap:14px}
+.ai-list h3{margin:0;font-size:1.15rem;letter-spacing:-.04em}
+.pill{flex:none;font:.64rem var(--mono);letter-spacing:.05em;padding:4px 9px;border-radius:999px;border:1px solid var(--c);color:var(--c)}
+.ai-list p{margin:8px 0 0;color:var(--muted);font-size:.88rem;line-height:1.7}
+.evidence{display:grid;grid-template-columns:repeat(2,1fr);gap:24px;margin-top:clamp(40px,5vw,60px);border-top:1px solid var(--line);padding-top:28px}
+.evidence strong{display:block;font-weight:800;font-size:clamp(1.8rem,3vw,2.6rem);letter-spacing:-.06em;line-height:1}
+.evidence span{display:block;color:var(--muted);font-size:.85rem;margin-top:8px;line-height:1.5}
+
+/* ===== experience ===== */
+.xp{background:var(--paper);padding:clamp(90px,11vw,140px) 0}
+.xp-grid{display:grid;grid-template-columns:1fr 240px;gap:40px;margin-top:clamp(40px,5vw,60px)}
+.jobs{list-style:none;margin:0;padding:0;border-left:1px solid var(--line)}
+.jobs li{position:relative;padding:0 0 34px 30px}
+.jobs li::before{content:"";position:absolute;left:-6px;top:8px;width:11px;height:11px;border-radius:50%;background:var(--paper);border:2px solid var(--accent)}
+.jobs li:first-child::before{background:var(--accent);box-shadow:0 0 0 5px color-mix(in srgb,var(--accent) 15%,transparent)}
+.jobs time{display:block;color:var(--accent)}
+.jobs h3{margin:6px 0 2px;font-size:1.35rem;letter-spacing:-.045em}
+.jobs .co{margin:0 0 8px;color:var(--ink);font-weight:600;font-size:.92rem}
+.jobs p{margin:0;color:var(--muted);font-size:.9rem;line-height:1.75;max-width:62ch}
+.lane{border:1px dashed var(--line);border-radius:6px;padding:20px;align-self:stretch}
+.lane>div{position:sticky;top:calc(var(--head) + 30px)}
+.lane h3{margin:10px 0 6px;font-size:1.05rem;letter-spacing:-.03em}
+.lane p{margin:0;color:var(--muted);font-size:.86rem;line-height:1.6}
+.edu{display:grid;grid-template-columns:repeat(3,1fr);gap:28px;border-top:1px solid var(--line);margin-top:20px;padding-top:28px}
+.edu h3{margin:8px 0 6px;font-size:1rem}
+.edu p{margin:0;color:var(--muted);font-size:.86rem;line-height:1.6}
+
+/* ===== toolkit ===== */
+.craft{background:var(--bg);padding:clamp(90px,11vw,150px) 0}
+.craft-grid{display:grid;grid-template-columns:38% 1fr;gap:9%}
+.craft-side{position:sticky;top:calc(var(--head) + 50px);align-self:start}
+.craft-side .h2{font-size:clamp(2.8rem,5.6vw,6rem);margin-top:50px}
+.skill{display:grid;grid-template-columns:36px 1fr 24px;gap:18px;padding:36px 0;border-top:1px solid var(--line)}
+.skill:last-child{border-bottom:1px solid var(--line)}
+.skill>span:first-child{color:var(--accent)}
+.skill h3{margin:0 0 12px;font-size:1.35rem;letter-spacing:-.05em}
+.skill p{margin:0;color:var(--muted);font-size:.88rem;line-height:1.9;max-width:470px}
+.skill .ar{color:var(--accent);font-size:1.3rem;transition:transform .35s}
+.skill:hover .ar{transform:rotate(45deg)}
+
+/* ===== contact ===== */
+.contact{background:#142B4C;color:#F8F5ED;padding:clamp(40px,5vw,60px) 0 30px}
+.contact .num{color:#C9D7E7}
+.c-main{position:relative;padding:clamp(80px,10vw,130px) 0 clamp(60px,8vw,100px)}
+.c-main .mono{color:#C9D7E7}
+.c-main h2{font-weight:800;font-size:clamp(3.1rem,10vw,11.5rem);line-height:1.02;letter-spacing:-.09em;margin:22px 0 0;max-width:12ch}
+.c-main h2 em{font-style:normal;color:#B3C8E0}
+.big-arrow{position:absolute;right:1%;bottom:22%;width:clamp(72px,9vw,128px);height:clamp(72px,9vw,128px);border:2px solid #D7E3EF;border-radius:50%;display:grid;place-items:center;font-size:clamp(30px,4vw,60px);text-decoration:none;transition:transform .35s,background .35s,color .35s}
+.big-arrow:hover{transform:rotate(45deg);background:#F8F5ED;color:#142B4C}
+.c-links{display:grid;grid-template-columns:repeat(3,1fr);gap:12px;margin-bottom:40px}
+.c-links a{display:block;padding:20px;border:1px solid rgba(215,227,239,.25);border-radius:4px;text-decoration:none;transition:background .25s,border-color .25s}
+.c-links a:hover{background:rgba(248,245,237,.06);border-color:#D7E3EF}
+.c-links small{display:block;color:#A9BDD4;font:.66rem var(--mono);letter-spacing:.07em}
+.c-links strong{display:block;font-size:1.02rem;margin-top:6px;word-break:break-word}
+.c-bottom{display:flex;justify-content:space-between;flex-wrap:wrap;gap:14px 20px;border-top:1px solid #56718E;padding-top:24px;color:#C9D7E7}
+.c-bottom a{text-underline-offset:3px}
+
+/* ===== responsive ===== */
+@media (max-width:1100px){
+  .cards{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .nav{gap:16px}
+}
+@media (max-width:960px){
+  .nav,.cta{display:none}
+  .burger{display:flex}
+  .hero-inner{grid-template-columns:1fr;min-height:0;gap:36px;padding-top:44px}
+  .hero-visual{align-items:flex-start}
+  .halo{left:0}
+  .ai-list,.xp-grid{grid-template-columns:1fr}
+  .facts{grid-template-columns:repeat(2,1fr)}
+  .facts div:nth-child(odd){padding-left:0;border-left:0}
+  .lane>div{position:static}
+  .craft-grid{grid-template-columns:1fr;gap:20px}
+  .craft-side{position:static}
+}
+@media (max-width:640px){
+  :root{--head:68px}
+  .wrap{width:calc(100% - 36px)}
+  .top{padding:0 18px}
+  .brand-mark{width:40px;height:40px;font-size:19px}
+  .brand-name{font-size:.66rem}
+  .brand-name small{font-size:.54rem}
+  .lang{padding:0 10px}
+  .title{letter-spacing:-.07em;font-size:clamp(2.8rem,13.5vw,4.6rem)}
+  .hero-sub{gap:18px}
+  .hero-sub p{font-size:.9rem}
+  .circle{width:52px;height:52px;font-size:20px}
+  .arch{width:100%;max-width:360px}
+  .head-row{display:block}
+  .head-row .intro{margin-top:18px}
+  .facts div:nth-child(even){padding-left:14px}
+  .controls{display:block}
+  .count{display:block;text-align:right;margin:8px 0 10px}
+  .cards{grid-template-columns:1fr}
+  .pcard{min-height:0}
+  .pcard h3{margin-top:26px}
+  .evidence{grid-template-columns:1fr;gap:20px}
+  .edu{grid-template-columns:1fr}
+  .skill{grid-template-columns:26px 1fr 20px;gap:10px;padding:26px 0}
+  .c-links{grid-template-columns:1fr}
+  .big-arrow{bottom:auto;top:30px}
+  .d-in{padding:22px}
+}
+@media (max-width:420px){.brand-name small{display:none}}
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation:none!important;transition:none!important}
+  .js .rv,.js .pcard.pre{opacity:1;transform:none}
+  .js .pcard:not(.show) .bars i.on::after,.js .pcard:not(.show) .bars i.wip::after{transform:scaleX(1)}
+  .arch img{transform:none;height:100%}
+}
+</style>
+<script>document.documentElement.classList.add('js');try{var t=localStorage.getItem('in-theme');if(t)document.documentElement.setAttribute('data-theme',t)}catch(e){}</script>
+</head>
+<body>
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <symbol id="ne" viewBox="0 0 24 24"><path d="M7 17L17 7M9 7h8v8" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="se" viewBox="0 0 24 24"><path d="M7 7l10 10M17 9v8H9" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+  <symbol id="moon" viewBox="0 0 24 24"><path d="M20 14.5A8 8 0 1 1 9.5 4a6.5 6.5 0 0 0 10.5 10.5z" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/></symbol>
+</svg>
+<div class="progress" aria-hidden="true"><span id="prog"></span></div>
+<a class="skip" href="#main" data-i18n="skip">Skip to content</a>
+
+<header class="top" id="top-bar">
+  <a class="brand" href="#top" aria-label="Imam Nurokhi, back to top">
+    <span class="brand-mark" aria-hidden="true">i<b>.</b>n</span>
+    <span class="brand-name">IMAM NUROKHI<small data-i18n="brandsub">TECH LEAD / ARCHITECTURE</small></span>
+  </a>
+  <nav class="nav" aria-label="Main">
+    <a href="#about" data-i18n="n1">About</a>
+    <a href="#work" data-i18n="n3">Work</a>
+    <a href="#ai" data-i18n="n4">AI lab</a>
+    <a href="#experience" data-i18n="n5">Experience</a>
+  </nav>
+  <div class="actions">
+    <button type="button" class="lang" id="lang" aria-label="Baca dalam Bahasa Indonesia"><b>EN</b> / ID</button>
+    <button type="button" class="theme" id="theme" aria-label="Switch colour theme"><svg class="ar"><use href="#moon"/></svg></button>
+    <a class="cta" href="#contact"><span data-i18n="talk">LET’S TALK</span><svg class="ar"><use href="#ne"/></svg></a>
+    <button type="button" class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="mnav"><span></span><span></span></button>
+  </div>
+</header>
+<nav class="mnav" id="mnav" aria-label="Mobile">
+  <a href="#about"><b data-i18n="n1">About</b><span>01</span></a>
+  <a href="#work"><b data-i18n="n3">Work</b><span>02</span></a>
+  <a href="#ai"><b data-i18n="n4">AI lab</b><span>03</span></a>
+  <a href="#experience"><b data-i18n="n5">Experience</b><span>04</span></a>
+  <a href="#toolkit"><b data-i18n="n6">Toolkit</b><span>05</span></a>
+  <a href="#contact"><b data-i18n="n7">Contact</b><span>06</span></a>
+</nav>
+
+<main id="main">
+<!-- ============ HERO ============ -->
+<section class="hero" id="top" aria-labelledby="hero-title">
+  <div class="grid-bg" aria-hidden="true"></div>
+  <div class="wrap hero-inner">
+    <div>
+      <p class="kicker"><span class="dot"></span><span data-i18n="kick">TECH LEAD &amp; SOFTWARE ARCHITECT · JAKARTA, INDONESIA</span></p>
+      <h1 class="title" id="hero-title">
+        <span class="sr-only">Muhammad Imam Nurokhi, Tech Lead and Software Architect. </span>
+        <span class="ln" aria-hidden="true"><span data-i18n="l1">Ideas into</span></span>
+        <span class="ln" aria-hidden="true"><span class="outline" data-i18n="l2">systems.</span></span>
+        <span class="ln" aria-hidden="true"><span data-i18n="l3">Systems into</span></span>
+        <span class="ln" aria-hidden="true"><span class="acc" data-i18n="l4">impact<i>.</i></span></span>
+      </h1>
+      <div class="hero-sub">
+        <p data-i18n="sub">I’m <strong>Muhammad Imam Nurokhi</strong>, Tech Lead at Nexora Technology. I lead engineering teams, design the systems they ship, and only call it production when it is.</p>
+        <a class="circle" href="#work" aria-label="See selected work"><svg class="ar"><use href="#se"/></svg></a>
+      </div>
+    </div>
+    <div class="hero-visual">
+      <div class="halo" aria-hidden="true"></div>
+      <div class="arch"><img id="hero-img" src="data:image/webp;base64,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" width="540" height="720" alt="Muhammad Imam Nurokhi, Tech Lead, at his desk with a laptop" fetchpriority="high" decoding="async"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ ABOUT ============ -->
+<section class="about" id="about" aria-labelledby="about-h">
+  <div class="wrap">
+    <div class="num mono"><span data-i18n="a-num">01 / ABOUT ME</span><span class="star" aria-hidden="true">✳&#xFE0E;</span></div>
+    <h2 class="h2 rv" id="about-h" data-i18n="a-h">Making complex things<br><em>feel simple.</em></h2>
+    <div class="about-copy rv">
+      <p data-i18n="ab1">I’ve spent <strong>11+ years</strong> building and modernising enterprise platforms for audit and certification, finance and ERP, e-commerce and digital media. My work sits where technical leadership, software architecture, IT business analysis and hands-on engineering meet.</p>
+        <p data-i18n="ab2">At Nexora Technology I lead a 4–5 person engineering team across 20+ internal and client applications: discovery, requirements, solution architecture, planning, risk and change control, PR review, UAT and release gates. I stay hands-on in Go, Java/Spring Boot, Node.js, React/Next.js and PostgreSQL.</p>
+        <p data-i18n="ab3">I also build AI-assisted engineering workflows with guardrails: isolated Git worktrees, human approval before anything merges, and an audit trail for every action.</p>
+        <div class="facts">
+          <div><strong>11+</strong><span data-i18n="f1">years in software engineering</span></div>
+          <div><strong>4–5</strong><span data-i18n="f2">engineers on the team I lead</span></div>
+          <div><strong>20+</strong><span data-i18n="f3">applications and workstreams in scope</span></div>
+          <div><strong>30+</strong><span data-i18n="f4">projects documented with role and status</span></div>
+        </div>
+      </div>
+  </div>
+</section>
+
+<!-- ============ WORK ============ -->
+<section class="work" id="work" aria-labelledby="work-h">
+  <div class="wrap">
+    <div class="num mono"><span data-i18n="w-num">02 / SELECTED WORK</span></div>
+    <div class="head-row">
+      <h2 class="h2 rv" id="work-h" data-i18n="w-h">Proof in<br><em>the building.</em></h2>
+      <p class="intro rv" data-i18n="w-intro">Platforms I lead, each labelled by the last release gate it has actually passed. Tap a card for my role, the stack and what the team delivered.</p>
+    </div>
+    <div class="controls">
+      <div class="filters" role="group" aria-label="Filter projects">
+        <button type="button" class="filter" aria-pressed="true" data-f="all"><span data-i18n="fa">All</span><span>12</span></button>
+        <button type="button" class="filter" aria-pressed="false" data-f="nexora">Nexora</button>
+        <button type="button" class="filter" aria-pressed="false" data-f="cbqa">CBQA Global</button>
+        <button type="button" class="filter" aria-pressed="false" data-f="earlier" data-i18n="fe">Earlier work</button>
+      </div>
+      <span class="count mono" id="count" aria-live="polite">SHOWING 12 PROJECTS</span>
+    </div>
+    <div class="legend mono" aria-hidden="true">
+      <span><i style="--c:var(--g0)"></i><span data-i18n="g0">Spec</span></span>
+      <span><i style="--c:var(--g1)"></i><span data-i18n="g1">Development</span></span>
+      <span><i style="--c:var(--g2)"></i><span data-i18n="g2">Staging</span></span>
+      <span><i style="--c:var(--g3)"></i>UAT</span>
+      <span><i style="--c:var(--g4)"></i><span data-i18n="g4">Production</span></span>
+      <span><i style="--c:var(--g5)"></i><span data-i18n="g5">Accepted</span></span>
+      <span><i class="wip"></i><span data-i18n="wip">In progress</span></span>
+    </div>
+
+    <div class="cards" id="cards">
+      <article class="pcard" data-cat="nexora">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-prod-int">Production, internal</span></div>
+        <h3><button type="button" class="c-open">NEXONE</button></h3>
+        <p class="c-desc" data-i18n="nx1">The project and delivery platform the team runs on, with Slack integration, access control and two-way task sync with SUPPORT. It is also the base for client editions.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="nx1r">Tech Lead, hands-on in authorization and integrations, including NEXONE-PCI.</p>
+        <div class="c-foot mono"><span>Go · Gin · GORM · PostgreSQL · React · TypeScript</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="nexora">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-kms">Production since Oct 2026</span></div>
+        <h3><button type="button" class="c-open">KMS</button></h3>
+        <p class="c-desc" data-i18n="nx2">Knowledge and document control for ISO 9001 clause 7.5: five-dimension access rules, an approval pipeline, watermarking and a full audit trail.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="nx2r">Tech Lead. Took it to production, ran Phase 1 rollout with HR, Legal and Marketing, and govern enhancement releases.</p>
+        <div class="c-foot mono"><span>NestJS · PostgreSQL · Redis · Next.js · shadcn/ui</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="nexora">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-prod">Production</span></div>
+        <h3><button type="button" class="c-open">SUPPORT / Resolv</button></h3>
+        <p class="c-desc" data-i18n="nx3">Helpdesk with customer and agent portals, SLAs, attachments and email notifications, synced two ways with NEXONE and Slack.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="nx3r">Tech Lead on integration and governance. Closed a CI gap where deploys passed without shipping anything, and hardened password reset.</p>
+        <div class="c-foot mono"><span>Next.js · React · Prisma · Tailwind · Playwright</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="nexora" style="--c:var(--g2)">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-super">Dev and staging</span></div>
+        <h3><button type="button" class="c-open">SuperApp &amp; SSO</button></h3>
+        <p class="c-desc" data-i18n="nx4">One login, a task aggregator and a launcher for the group’s apps. I wrote SPEC-001: a repository per app, an OIDC identity hub (Auth Code + PKCE), fail-closed RBAC and one CI/CD standard.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Development passed, staging in progress"><i class="on"></i><i class="on"></i><i class="wip"></i><i></i><i></i><i></i></div></div>
+        <p class="c-role" data-i18n="nx4r">Architect and Tech Lead. SSO is being connected app by app; it is not finished across the suite yet.</p>
+        <div class="c-foot mono"><span>Next.js · Auth.js · NestJS · PostgreSQL · Redis</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="nexora" style="--c:var(--g2)">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-nf">Client implementation</span></div>
+        <h3><button type="button" class="c-open">NexFinance</button></h3>
+        <p class="c-desc" data-i18n="nx5">Multi-tenant finance SaaS for schools and foundations: tuition billing, payroll, two-step approvals, purchase-to-receipt, ISAK 335 reporting and fixed assets.</p>
+        <div class="tracks">
+          <div><div class="t-head"><b>NexFinance</b><span data-i18n="s-nf">Client implementation</span></div><div class="bars" role="img" aria-label="Staging in progress"><i class="on"></i><i class="on"></i><i class="wip"></i><i></i><i></i><i></i></div></div>
+          <div><div class="t-head"><b>Tenant edition</b><span data-i18n="s-nft">Dev and staging</span></div><div class="bars" role="img" aria-label="Staging in progress"><i class="on"></i><i class="on"></i><i class="wip"></i><i></i><i></i><i></i></div></div>
+        </div>
+        <p class="c-role" data-i18n="nx5r">Tech Lead and business analyst. Led the first client kickoff and migration mapping, and still commit code and troubleshoot staging deploys.</p>
+        <div class="c-foot mono"><span>Node.js · Express · PostgreSQL · Redis · Next.js</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="nexora" style="--c:var(--g1)">
+        <div class="c-top mono"><span>NEXORA</span><span class="c-status" data-i18n="s-mods">3 modules</span></div>
+        <h3><button type="button" class="c-open">NexServe, NexAcademy, NexAccred</button></h3>
+        <p class="c-desc" data-i18n="nx6">A service desk with approvals and booking, a training platform with certificate verification, and an accreditation workflow.</p>
+        <div class="tracks">
+          <div><div class="t-head"><b>NexServe</b><span data-i18n="s-ns">Dev complete</span></div><div class="bars" role="img" aria-label="Development passed"><i class="on"></i><i class="on"></i><i></i><i></i><i></i><i></i></div></div>
+          <div><div class="t-head"><b>NexAcademy</b><span data-i18n="s-na">In development</span></div><div class="bars" role="img" aria-label="Development in progress"><i class="on"></i><i class="wip"></i><i></i><i></i><i></i><i></i></div></div>
+          <div><div class="t-head"><b>NexAccred</b><span data-i18n="s-nac">Prototype</span></div><div class="bars" role="img" aria-label="Prototype"><i class="wip"></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        </div>
+        <p class="c-role" data-i18n="nx6r">Scope owner and reviewer. I ran prototype reviews and set acceptance gates; engineers on my team wrote most of the code.</p>
+        <div class="c-foot mono"><span>React · Vite · NestJS · Next.js · Prisma</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="cbqa">
+        <div class="c-top mono"><span>CBQA GLOBAL</span><span class="c-status" data-i18n="s-oa">Production, modernising</span></div>
+        <h3><button type="button" class="c-open">OneAlpha</button></h3>
+        <p class="c-desc" data-i18n="cb1">The certification body’s system of record, from lead to proposal, project, audit and certificate.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="cb1r">Principal engineer and architect for the modernisation: per-standard certificate issuance, integrated audit reports, approval guards, auditor man-days, an HRIS module and an end-to-end QA harness.</p>
+        <div class="c-foot mono"><span>React · MUI · Keycloak · Java 21 · Spring Boot · PostGIS</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="cbqa">
+        <div class="c-top mono"><span>CBQA GLOBAL</span><span class="c-status" data-i18n="s-prod">Production</span></div>
+        <h3><button type="button" class="c-open">OneDataHub</button></h3>
+        <p class="c-desc" data-i18n="cb2">Master data and auditor competency: qualifications, standards and EA codes that decide who can be assigned to an audit.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="cb2r">Architecture and integration, including Keycloak SSO and competency rules.</p>
+        <div class="c-foot mono"><span>React · Ant Design · Keycloak · Spring Boot</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="cbqa">
+        <div class="c-top mono"><span>CBQA GLOBAL</span><span class="c-status" data-i18n="s-aq">Legacy, in production</span></div>
+        <h3><button type="button" class="c-open">Audit-Q v1/v2</button></h3>
+        <p class="c-desc" data-i18n="cb3">The earlier audit application, with a documented migration path to OneAlpha.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="cb3r">Direct engineering. Documented its lineage and the migration plan, and set up pull-based CD with automatic rollback for the dev environment.</p>
+        <div class="c-foot mono"><span>Laravel · PHP 8 · MariaDB · Docker · systemd</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="cbqa">
+        <div class="c-top mono"><span>CBQA GLOBAL</span><span class="c-status" data-i18n="s-2t">2 tracks</span></div>
+        <h3><button type="button" class="c-open">OneGRC</button></h3>
+        <p class="c-desc" data-i18n="cb4">A GRC portal with ISO 27001 and other modules, plus a proposed reusable multi-framework assessment engine.</p>
+        <div class="tracks">
+          <div><div class="t-head"><b data-i18n="s-grc1">Portal</b><span data-i18n="s-grc1s">Live since Oct 2026</span></div><div class="bars" role="img" aria-label="Production"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+          <div><div class="t-head"><b data-i18n="s-grc2">Assessment engine</b><span data-i18n="s-grc2s">Backlog</span></div><div class="bars" role="img" aria-label="Spec in progress"><i class="wip"></i><i></i><i></i><i></i><i></i><i></i></div></div>
+        </div>
+        <p class="c-role" data-i18n="cb4r">Business analysis and architecture: gap analysis and business rules for a 13-site plantation client.</p>
+        <div class="c-foot mono"><span>HTML portal · SuperApp stack (target)</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="earlier">
+        <div class="c-top mono"><span>TELUNJUK.COM</span><span class="c-status" data-i18n="s-done">Shipped, 2019–2021</span></div>
+        <h3><button type="button" class="c-open">Compas</button></h3>
+        <p class="c-desc" data-i18n="e1">E-commerce market intelligence with automated price tracking: crawling, reporting, SEO and data processing at scale.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Shipped"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="e1r">Product Development Team Lead.</p>
+        <div class="c-foot mono"><span>PHP · MySQL · Elasticsearch · SOLR · Redis</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+
+      <article class="pcard" data-cat="earlier">
+        <div class="c-top mono"><span data-i18n="e2o">SINCE 2019</span><span class="c-status" data-i18n="s-ship">Shipped</span></div>
+        <h3><button type="button" class="c-open" data-i18n="e2h">Independent consulting</button></h3>
+        <p class="c-desc" data-i18n="e2">Websites, corporate portals and digital sales tools for clients including PT PLN Energi Gas and Beli Royal Enfield, plus custom Odoo 18 modules for an insurance brokerage.</p>
+        <div class="tracks"><div class="bars" role="img" aria-label="Shipped"><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i class="on"></i><i></i></div></div>
+        <p class="c-role" data-i18n="e2r">Independent consultant, part-time alongside full-time roles.</p>
+        <div class="c-foot mono"><span>Next.js · PHP · Odoo 18 (Python)</span><span class="plus" aria-hidden="true">+</span></div>
+      </article>
+    </div>
+    <p class="also" data-i18n="also"><strong>Also led as Tech Lead</strong> (architecture, review and release; code by the team): OneConnect, NEXONE SME, NEXA asset management, NEXFLOW e-memo, ESG Score, a public-sector IT portfolio assessment, ONETOOL, a multi-tenant culinary SaaS and NEXONE Warehouse.</p>
+  </div>
+</section>
+
+<!-- ============ AI LAB ============ -->
+<section class="ai" id="ai" aria-labelledby="ai-h">
+  <div class="wrap">
+    <div class="num mono"><span data-i18n="ai-num">03 / AI-ASSISTED ENGINEERING</span></div>
+    <div class="head-row">
+      <h2 class="h2 rv" id="ai-h" data-i18n="ai-h">AI that asks<br><em>before it merges.</em></h2>
+      <p class="intro rv" data-i18n="ai-intro">I don’t train models. I build the controls that let a team use coding agents safely: scoped permissions, isolated workspaces, human approval and a log of every action.</p>
+    </div>
+    <ul class="ai-list rv">
+        <li><header><h3>Agent Harness &amp; AI-Workspace</h3><span class="pill" style="--c:var(--g4)" data-i18n="live">LIVE, INTERNAL</span></header>
+          <p data-i18n="ai1">Role-bound agents (lead, implementer, reviewer, security, QA) each get one Git worktree per task. They can commit but never push; pull requests to staging or main need my approval, from a Telegram bot with role-based access.</p></li>
+        <li><header><h3>AskNexAI</h3><span class="pill" style="--c:var(--g4)" data-i18n="live">LIVE, INTERNAL</span></header>
+          <p data-i18n="ai2">Read-only product Q&amp;A for non-technical staff, answered from a curated, secret-scanned knowledge base with provider failover.</p></li>
+        <li><header><h3>/generate_mom</h3><span class="pill" style="--c:var(--g4)" data-i18n="live">LIVE, INTERNAL</span></header>
+          <p data-i18n="ai3">Send a meeting recording on Telegram, get minutes with decisions and action items. Transcription runs locally; long meetings are chunked and resumable. Very large uploads are still being verified.</p></li>
+        <li><header><h3>Requirement Readiness Assistant</h3><span class="pill" style="--c:var(--g3)">PILOT</span></header>
+          <p data-i18n="ai5">A rule-grounded widget inside prototypes that answers with citations and captures sign-off, piloted with 10 stakeholder reviewers.</p></li>
+    </ul>
+    <div class="evidence">
+      <div class="rv"><strong>366</strong><span data-i18n="ev3">core harness tests passing at the 19 Sep snapshot</span></div>
+      <div class="rv"><strong>63% → 100%</strong><span data-i18n="ev4">answer coverage for the Academy assistant on its evaluation set</span></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ EXPERIENCE ============ -->
+<section class="xp" id="experience" aria-labelledby="xp-h">
+  <div class="wrap">
+    <div class="num mono"><span data-i18n="x-num">04 / EXPERIENCE</span></div>
+    <h2 class="h2 rv" id="xp-h" data-i18n="x-h">Eleven years,<br><em>shipped.</em></h2>
+    <div class="xp-grid">
+      <ol class="jobs">
+        <li class="rv"><time class="mono" datetime="2025-12" data-i18n="j1t">DEC 2025 – PRESENT</time><h3>Tech Lead</h3><p class="co">Nexora Technology, Jakarta</p>
+          <p data-i18n="j1">Lead a 4–5 person team (software, DevOps, QA) across 20+ group and client applications, from kickoff to go-live. Authored SPEC-001 and the team’s development standard; run planning, defect triage and PR review; report status with development, staging, UAT and production kept separate.</p></li>
+        <li class="rv"><time class="mono" datetime="2024-02" data-i18n="j2t">FEB 2024 – DEC 2025</time><h3>Senior IT Programmer</h3><p class="co">CBQA Global, Jakarta</p>
+          <p data-i18n="j2">Developed and modernised the audit and certification applications (Audit-Q v1/v2) and started the move to OneAlpha. Worked with accreditation, operations and technical teams on requirements, data migration and UAT.</p></li>
+        <li class="rv"><time class="mono" datetime="2022-11" data-i18n="j3t">NOV 2022 – FEB 2024</time><h3>Full-Stack Engineer</h3><p class="co">Prifat Talenta Indonesia</p>
+          <p data-i18n="j3">Built the corporate website and CMS, and hybrid Android and iOS apps with Ionic and TypeScript.</p></li>
+        <li class="rv"><time class="mono" datetime="2021-05" data-i18n="j4t">MAY – OCT 2021</time><h3>Back End Engineer</h3><p class="co">Asumsi</p>
+          <p data-i18n="j4">Improved backend APIs and data services for a digital media platform.</p></li>
+        <li class="rv"><time class="mono" datetime="2019-07" data-i18n="j5t">JUL 2019 – FEB 2021</time><h3>Product Development Team Lead</h3><p class="co">Telunjuk.com</p>
+          <p data-i18n="j5">Led engineering for Compas, the market intelligence and price-tracking platform.</p></li>
+        <li class="rv"><time class="mono" datetime="2015-12" data-i18n="j6t">DEC 2015 – JUL 2019</time><h3>Product Engineer</h3><p class="co">Telunjuk.com</p>
+          <p data-i18n="j6">CMS, web crawlers, scheduled jobs, search and caching with PHP, MySQL, Elasticsearch, SOLR and Redis.</p></li>
+        <li class="rv"><time class="mono" datetime="2015-08" data-i18n="j7t">AUG – NOV 2015</time><h3>Web Developer</h3><p class="co">BilineDev</p>
+          <p data-i18n="j7">Guest registration, room reservation and task management apps with CodeIgniter and MySQL.</p></li>
+      </ol>
+      <aside class="lane" aria-label="Concurrent role"><div>
+        <span class="mono" style="color:var(--accent)" data-i18n="lane-k">JUN 2019 – PRESENT</span>
+        <h3 data-i18n="lane-h">Running in parallel</h3>
+        <p data-i18n="lane">Independent IT consultant, part-time alongside the roles on the left.</p>
+      </div></aside>
+    </div>
+    <div class="edu">
+      <div><span class="mono" style="color:var(--accent)" data-i18n="ed-k">EDUCATION</span><h3 data-i18n="ed-h">Diploma in Information Technology</h3><p>Universitas Indonesia, 2013–2015</p></div>
+      <div><span class="mono" style="color:var(--accent)" data-i18n="ce-k">CERTIFICATIONS</span><h3>ISO/IEC 27001:2022 Awareness</h3><p data-i18n="ce">Data Privacy Protection in Organizations (2024), Advanced SQL for Data Scientists (2019)</p></div>
+      <div><span class="mono" style="color:var(--accent)" data-i18n="la-k">LANGUAGES</span><h3 data-i18n="la-h">Indonesian, English</h3><p data-i18n="la">Native, and professional working proficiency</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TOOLKIT ============ -->
+<section class="craft" id="toolkit" aria-labelledby="tk-h">
+  <div class="wrap craft-grid">
+    <div class="craft-side">
+      <div class="num mono"><span data-i18n="t-num">05 / THE TOOLKIT</span></div>
+      <h2 class="h2" id="tk-h" data-i18n="t-h">Built to<br><em>adapt.</em></h2>
+      <p class="intro" data-i18n="t-intro">The toolkit changes. The principles stay: clarity, pragmatism, maintainability and real-world impact.</p>
+    </div>
+    <div>
+      <div class="skill rv"><span class="mono">01</span><div><h3 data-i18n="s1h">Leadership &amp; delivery</h3><p data-i18n="s1">Technical leadership, mentoring, Agile/Scrum, roadmaps and forecasts, UAT and release gates, stakeholder management.</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+      <div class="skill rv"><span class="mono">02</span><div><h3 data-i18n="s2h">Business analysis</h3><p data-i18n="s2">Discovery, PRDs, business rules, gap analysis, prototype reviews, UAT scenarios, build-or-buy decisions.</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+      <div class="skill rv"><span class="mono">03</span><div><h3 data-i18n="s3h">Architecture</h3><p data-i18n="s3">System design, microservices, API contracts, multi-tenant SaaS, RBAC, SSO with Keycloak and OIDC (Auth Code + PKCE), data modelling.</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+      <div class="skill rv"><span class="mono">04</span><div><h3>Backend &amp; data</h3><p>Go (Gin, GORM, pgx), Java 21/Spring Boot, Node.js (Express, NestJS), PHP/Laravel, PostgreSQL/PostGIS, MySQL, Redis, Elasticsearch</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+      <div class="skill rv"><span class="mono">05</span><div><h3>Frontend &amp; platform</h3><p>React, Next.js, TypeScript, Tailwind CSS, Ionic, Docker, Linux, Nginx/Traefik, GitHub Actions, Prometheus, Grafana, Playwright</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+      <div class="skill rv"><span class="mono">06</span><div><h3 data-i18n="s6h">AI &amp; automation</h3><p data-i18n="s6">Claude Code, Codex CLI, MCP, Git worktrees, approval-gated agent pipelines, faster-whisper, Telegram, Slack and Outline APIs.</p></div><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CONTACT ============ -->
+<section class="contact" id="contact" aria-labelledby="ct-h">
+  <div class="wrap">
+    <div class="num mono"><span data-i18n="c-num">06 / GET IN TOUCH</span><svg class="ar" aria-hidden="true"><use href="#ne"/></svg></div>
+    <div class="c-main">
+      <p class="mono" data-i18n="c-k">HIRING A TECH LEAD OR ARCHITECT?</p>
+      <h2 id="ct-h"><span data-i18n="c-l1">Let’s make</span><br><em data-i18n="c-l2">it meaningful.</em></h2>
+      <a class="big-arrow" href="mailto:mimamnuro@gmail.com?subject=Hello%20Imam" aria-label="Email Imam"><svg class="ar"><use href="#ne"/></svg></a>
+    </div>
+    <div class="c-links">
+      <a href="mailto:mimamnuro@gmail.com"><small>EMAIL</small><strong>mimamnuro@gmail.com</strong></a>
+      <a href="https://id.linkedin.com/in/muhammad-imam-nurokhi" target="_blank" rel="me noopener"><small>LINKEDIN</small><strong>in/muhammad-imam-nurokhi</strong></a>
+      <a href="https://github.com/imam-nurokhi" target="_blank" rel="me noopener"><small>GITHUB</small><strong>imam-nurokhi</strong></a>
+    </div>
+    <footer class="c-bottom mono">
+      <span>© 2026 MUHAMMAD IMAM NUROKHI</span>
+      <a href="#top" data-i18n="back">BACK TO TOP ↑</a>
+    </footer>
+  </div>
+</section>
+</main>
+
+<dialog class="detail" id="detail" aria-labelledby="d-title">
+  <div class="d-in">
+    <div class="d-head mono"><span id="d-org">PROJECT</span><button type="button" class="close" id="d-close" aria-label="Close project details">✕</button></div>
+    <h2 id="d-title">Project</h2>
+    <span class="d-label" data-i18n="d-status">STATUS</span>
+    <div id="d-status"></div>
+    <div class="d-tracks" id="d-tracks"></div>
+    <span class="d-label" data-i18n="d-what">WHAT IT IS</span>
+    <p id="d-desc"></p>
+    <span class="d-label" data-i18n="d-role">MY ROLE</span>
+    <p class="d-role" id="d-role"></p>
+    <span class="d-label">STACK</span>
+    <p id="d-stack"></p>
+    <div class="d-foot mono"><span data-i18n="d-foot">SELECTED WORK / IMAM NUROKHI</span><span>✳&#xFE0E;</span></div>
+  </div>
+</dialog>
+
+<script>
+(function(){
+  'use strict';
+  var $=function(s,c){return (c||document).querySelector(s)}, $$=function(s,c){return Array.prototype.slice.call((c||document).querySelectorAll(s))};
+  var root=document.documentElement, reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var clamp=function(v,a,b){return Math.min(b,Math.max(a,v))};
+  var lang='en';
+
+  /* ---------- translations ---------- */
+  var ID={
+    skip:"Lewati ke konten", brandsub:"TECH LEAD / ARSITEKTUR", n1:"Tentang", n3:"Karya", n4:"Lab AI", n5:"Pengalaman", n6:"Toolkit", n7:"Kontak", talk:"HUBUNGI SAYA",
+    kick:"TECH LEAD &amp; SOFTWARE ARCHITECT · JAKARTA, INDONESIA", l1:"Dari ide", l2:"ke sistem.", l3:"Dari sistem", l4:"ke dampak<i>.</i>",
+    sub:"Saya <strong>Muhammad Imam Nurokhi</strong>, Tech Lead di Nexora Technology. Saya memimpin tim engineering, merancang sistem yang mereka rilis, dan hanya menyebutnya produksi kalau memang sudah produksi.",
+    "a-num":"01 / TENTANG SAYA", "a-h":"Membuat hal rumit<br><em>terasa sederhana.</em>",
+    ab1:"Selama <strong>11+ tahun</strong> saya membangun dan memodernisasi platform enterprise untuk audit dan sertifikasi, keuangan dan ERP, e-commerce, serta media digital. Pekerjaan saya ada di titik temu technical leadership, software architecture, IT business analysis, dan engineering hands-on.",
+    ab2:"Di Nexora Technology saya memimpin tim engineering 4–5 orang untuk 20+ aplikasi internal dan klien: discovery, requirement, solution architecture, perencanaan, kontrol risiko dan perubahan, review PR, UAT, dan release gate. Saya tetap hands-on di Go, Java/Spring Boot, Node.js, React/Next.js, dan PostgreSQL.",
+    ab3:"Saya juga membangun workflow engineering berbantuan AI dengan pengaman: Git worktree terisolasi, persetujuan manusia sebelum apa pun di-merge, dan audit trail untuk setiap aksi.",
+    f1:"tahun di software engineering", f2:"engineer di tim yang saya pimpin", f3:"aplikasi dan workstream dalam cakupan", f4:"proyek terdokumentasi dengan peran dan status",
+    g0:"Spesifikasi", g1:"Development", g2:"Staging", g4:"Produksi", g5:"Diterima",
+    "w-num":"02 / KARYA PILIHAN", "w-h":"Bukti lewat<br><em>karya nyata.</em>", "w-intro":"Platform yang saya pimpin, masing-masing diberi label sesuai gerbang rilis terakhir yang benar-benar sudah dilewati. Ketuk kartu untuk melihat peran saya, stack, dan apa yang dikerjakan tim.",
+    fa:"Semua", fe:"Karya sebelumnya", wip:"Sedang berjalan",
+    "s-prod-int":"Produksi, internal", "s-kms":"Produksi sejak Okt 2026", "s-prod":"Produksi", "s-super":"Dev dan staging", "s-nf":"Implementasi klien", "s-nft":"Dev dan staging",
+    "s-mods":"3 modul", "s-ns":"Dev selesai", "s-na":"Sedang development", "s-nac":"Prototipe", "s-oa":"Produksi, dimodernisasi", "s-aq":"Legacy, di produksi", "s-2t":"2 jalur",
+    "s-grc1":"Portal", "s-grc1s":"Live sejak Okt 2026", "s-grc2":"Mesin asesmen", "s-grc2s":"Backlog", "s-done":"Rilis, 2019–2021", "s-ship":"Sudah rilis",
+    nx1:"Platform project dan delivery yang dipakai tim sehari-hari, dengan integrasi Slack, kontrol akses, dan sinkronisasi task dua arah dengan SUPPORT. Juga menjadi dasar edisi untuk klien.",
+    nx1r:"Tech Lead, hands-on di authorization dan integrasi, termasuk NEXONE-PCI.",
+    nx2:"Kontrol dokumen dan pengetahuan untuk ISO 9001 klausul 7.5: aturan akses lima dimensi, pipeline approval, watermark, dan audit trail lengkap.",
+    nx2r:"Tech Lead. Membawanya ke produksi, menjalankan rollout Fase 1 bersama HR, Legal, dan Marketing, serta mengawal rilis enhancement.",
+    nx3:"Helpdesk dengan portal pelanggan dan agen, SLA, lampiran, dan notifikasi email, tersinkron dua arah dengan NEXONE dan Slack.",
+    nx3r:"Tech Lead untuk integrasi dan governance. Menutup celah CI ketika deploy terlihat sukses padahal tidak mengirim apa pun, dan memperkuat alur reset password.",
+    nx4:"Satu login, agregator task, dan launcher untuk aplikasi grup. Saya menulis SPEC-001: repository per aplikasi, identity hub OIDC (Auth Code + PKCE), RBAC fail-closed, dan satu standar CI/CD.",
+    nx4r:"Arsitek dan Tech Lead. SSO sedang disambungkan aplikasi demi aplikasi; belum selesai untuk seluruh suite.",
+    nx5:"SaaS keuangan multi-tenant untuk sekolah dan yayasan: tagihan SPP, payroll, approval dua tahap, purchase sampai penerimaan, laporan ISAK 335, dan aset tetap.",
+    nx5r:"Tech Lead dan business analyst. Memimpin kickoff klien pertama dan pemetaan migrasi, dan masih commit kode serta menangani masalah deploy di staging.",
+    nx6:"Service desk dengan approval dan booking, platform pelatihan dengan verifikasi sertifikat, dan workflow akreditasi.",
+    nx6r:"Pemilik scope dan reviewer. Saya menjalankan review prototipe dan menetapkan acceptance gate; sebagian besar kode ditulis engineer di tim saya.",
+    cb1:"System of record lembaga sertifikasi, dari lead ke proposal, proyek, audit, hingga sertifikat.",
+    cb1r:"Engineer utama dan arsitek modernisasi: penerbitan sertifikat per standar, laporan audit terintegrasi, approval guard, man-days auditor, modul HRIS, dan harness QA end-to-end.",
+    cb2:"Master data dan kompetensi auditor: kualifikasi, standar, dan kode EA yang menentukan siapa yang boleh ditugaskan ke sebuah audit.",
+    cb2r:"Arsitektur dan integrasi, termasuk SSO Keycloak dan aturan kompetensi.",
+    cb3:"Aplikasi audit generasi sebelumnya, dengan jalur migrasi ke OneAlpha yang terdokumentasi.",
+    cb3r:"Engineering langsung. Mendokumentasikan riwayat dan rencana migrasinya, serta menyiapkan CD berbasis pull dengan rollback otomatis untuk environment dev.",
+    cb4:"Portal GRC dengan modul ISO 27001 dan lainnya, plus usulan mesin asesmen multi-framework yang bisa dipakai ulang.",
+    cb4r:"Business analysis dan arsitektur: gap analysis dan aturan bisnis untuk klien perkebunan dengan 13 lokasi.",
+    e1:"Market intelligence e-commerce dengan pelacakan harga otomatis: crawling, pelaporan, SEO, dan pengolahan data skala besar.", e1r:"Product Development Team Lead.",
+    e2o:"SEJAK 2019", e2h:"Konsultan independen", e2:"Website, portal korporat, dan alat penjualan digital untuk klien seperti PT PLN Energi Gas dan Beli Royal Enfield, serta modul Odoo 18 kustom untuk perusahaan pialang asuransi.",
+    e2r:"Konsultan independen, paruh waktu di samping pekerjaan utama.",
+    also:"<strong>Juga dipimpin sebagai Tech Lead</strong> (arsitektur, review, dan rilis; kode oleh tim): OneConnect, NEXONE UMKM, manajemen aset NEXA, e-memo NEXFLOW, ESG Score, asesmen portofolio TI sektor publik, ONETOOL, SaaS kuliner multi-tenant, dan NEXONE Warehouse.",
+    "ai-num":"03 / ENGINEERING BERBANTUAN AI", "ai-h":"AI yang minta izin<br><em>sebelum merge.</em>",
+    "ai-intro":"Saya tidak melatih model. Saya membangun kontrol agar tim bisa memakai coding agent dengan aman: izin terbatas, workspace terisolasi, persetujuan manusia, dan log setiap aksi.",
+    live:"LIVE, INTERNAL",
+    ai1:"Agen dengan peran tetap (lead, implementer, reviewer, security, QA) masing-masing mendapat satu Git worktree per task. Mereka boleh commit tapi tidak pernah push; pull request ke staging atau main butuh persetujuan saya lewat bot Telegram dengan akses berbasis peran.",
+    ai2:"Tanya-jawab produk read-only untuk staf non-teknis, dijawab dari knowledge base yang dikurasi dan sudah dipindai dari secret, dengan failover antar provider.",
+    ai3:"Kirim rekaman meeting lewat Telegram, terima notulen berisi keputusan dan action item. Transkripsi berjalan lokal; meeting panjang dipotong dan bisa dilanjutkan. Unggahan yang sangat besar masih diverifikasi.",
+    ai5:"Widget berbasis aturan di dalam prototipe yang menjawab dengan sitasi dan mencatat sign-off, diuji coba bersama 10 reviewer stakeholder.",
+    ev3:"tes inti harness lulus pada snapshot 19 Sep", ev4:"cakupan jawaban asisten Academy pada evaluation set-nya",
+    "x-num":"04 / PENGALAMAN", "x-h":"Sebelas tahun,<br><em>sudah rilis.</em>",
+    j1t:"DES 2025 – SEKARANG", j2t:"FEB 2024 – DES 2025", j3t:"NOV 2022 – FEB 2024", j4t:"MEI – OKT 2021", j5t:"JUL 2019 – FEB 2021", j6t:"DES 2015 – JUL 2019", j7t:"AGU – NOV 2015",
+    j1:"Memimpin tim 4–5 orang (software, DevOps, QA) untuk 20+ aplikasi grup dan klien, dari kickoff sampai go-live. Menulis SPEC-001 dan standar development tim; menjalankan perencanaan, triase defect, dan review PR; melaporkan status dengan development, staging, UAT, dan produksi dipisahkan.",
+    j2:"Mengembangkan dan memodernisasi aplikasi audit dan sertifikasi (Audit-Q v1/v2) dan memulai transisi ke OneAlpha. Bekerja dengan tim akreditasi, operasional, dan teknis untuk requirement, migrasi data, dan UAT.",
+    j3:"Membangun website korporat dan CMS, serta aplikasi hybrid Android dan iOS dengan Ionic dan TypeScript.",
+    j4:"Meningkatkan API backend dan layanan data untuk platform media digital.",
+    j5:"Memimpin engineering Compas, platform market intelligence dan pelacakan harga.",
+    j6:"CMS, web crawler, scheduled job, search, dan caching dengan PHP, MySQL, Elasticsearch, SOLR, dan Redis.",
+    j7:"Aplikasi registrasi tamu, reservasi ruangan, dan manajemen task dengan CodeIgniter dan MySQL.",
+    "lane-k":"JUN 2019 – SEKARANG", "lane-h":"Berjalan paralel", lane:"Konsultan TI independen, paruh waktu di samping peran di sebelah kiri.",
+    "ed-k":"PENDIDIKAN", "ed-h":"Diploma Teknologi Informasi", "ce-k":"SERTIFIKASI", ce:"Data Privacy Protection in Organizations (2024), Advanced SQL for Data Scientists (2019)",
+    "la-k":"BAHASA", "la-h":"Indonesia, Inggris", la:"Native, dan profesional",
+    "t-num":"05 / TOOLKIT", "t-h":"Dibangun untuk<br><em>beradaptasi.</em>", "t-intro":"Teknologi terus berubah. Prinsipnya tetap: jelas, pragmatis, mudah dirawat, dan berdampak nyata.",
+    s1h:"Kepemimpinan &amp; delivery", s1:"Technical leadership, mentoring, Agile/Scrum, roadmap dan forecast, UAT dan release gate, manajemen stakeholder.",
+    s2h:"Business analysis", s2:"Discovery, PRD, aturan bisnis, gap analysis, review prototipe, skenario UAT, keputusan build atau buy.",
+    s3h:"Arsitektur", s3:"System design, microservices, kontrak API, SaaS multi-tenant, RBAC, SSO dengan Keycloak dan OIDC (Auth Code + PKCE), pemodelan data.",
+    s6h:"AI &amp; otomasi", s6:"Claude Code, Codex CLI, MCP, Git worktree, pipeline agen dengan approval gate, faster-whisper, API Telegram, Slack, dan Outline.",
+    "c-num":"06 / HUBUNGI SAYA", "c-k":"MENCARI TECH LEAD ATAU ARSITEK?", "c-l1":"Mari buat", "c-l2":"lebih berarti.",
+    back:"KEMBALI KE ATAS ↑",
+    "d-status":"STATUS", "d-what":"APA INI", "d-role":"PERAN SAYA", "d-foot":"KARYA PILIHAN / IMAM NUROKHI"
+  };
+  var EN={}, nodes=$$('[data-i18n]');
+  nodes.forEach(function(n){var k=n.getAttribute('data-i18n'); if(!(k in EN)) EN[k]=n.innerHTML;});
+  var tr=function(k){return (lang==='id'&&ID[k]!=null)?ID[k]:EN[k];};
+
+  /* ---------- language ---------- */
+  var langBtn=$('#lang');
+  function setLang(l){
+    lang=l;
+    nodes.forEach(function(n){var k=n.getAttribute('data-i18n'); var v=tr(k); if(v!=null&&n.innerHTML!==v) n.innerHTML=v;});
+    root.lang=l;
+    langBtn.innerHTML=l==='id'?'EN / <b>ID</b>':'<b>EN</b> / ID';
+    langBtn.setAttribute('aria-label',l==='id'?'Read in English':'Baca dalam Bahasa Indonesia');
+    try{localStorage.setItem('in-lang',l);}catch(e){}
+    updateCount();
+  }
+  langBtn.addEventListener('click',function(){setLang(lang==='en'?'id':'en');});
+
+  /* ---------- theme ---------- */
+  $('#theme').addEventListener('click',function(){
+    var cur=root.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light');
+    var nx=cur==='dark'?'light':'dark'; root.setAttribute('data-theme',nx);
+    try{localStorage.setItem('in-theme',nx);}catch(e){}
+  });
+
+  /* ---------- mobile menu ---------- */
+  var burger=$('#burger'), mnav=$('#mnav');
+  function menu(open){
+    mnav.classList.toggle('open',open); burger.setAttribute('aria-expanded',String(open));
+    burger.setAttribute('aria-label',open?(lang==='id'?'Tutup menu':'Close menu'):(lang==='id'?'Buka menu':'Open menu'));
+    if(open){var a=$('a',mnav); a&&a.focus({preventScroll:true});}
+  }
+  burger.addEventListener('click',function(){menu(!mnav.classList.contains('open'));});
+  $$('a',mnav).forEach(function(a){a.addEventListener('click',function(){menu(false);});});
+  document.addEventListener('keydown',function(e){if(e.key==='Escape'&&mnav.classList.contains('open')){menu(false);burger.focus();}});
+  document.addEventListener('click',function(e){if(mnav.classList.contains('open')&&!mnav.contains(e.target)&&!burger.contains(e.target))menu(false);});
+  matchMedia('(min-width: 961px)').addEventListener('change',function(m){if(m.matches)menu(false);});
+
+  /* ---------- scroll frame ---------- */
+  var bar=$('#prog'), topBar=$('#top-bar'), heroImg=$('#hero-img'), hero=$('#top'), ticking=false;
+  function frame(){
+    ticking=false;
+    var y=scrollY||0, max=document.documentElement.scrollHeight-innerHeight;
+    bar.style.transform='scaleX('+(max>0?y/max:0)+')';
+    topBar.classList.toggle('scrolled',y>20);
+    if(!reduce){
+      var hr=hero.getBoundingClientRect();
+      if(hr.bottom>0){var p=clamp(-hr.top/Math.max(hr.height,1),0,1); heroImg.style.transform='translate3d(0,'+(-5+p*9)+'%,0)';}
+    }
+  }
+  function req(){if(!ticking){ticking=true;requestAnimationFrame(frame);}}
+  addEventListener('scroll',req,{passive:true}); addEventListener('resize',req,{passive:true});
+
+  /* ---------- active nav ---------- */
+  var navLinks=$$('.nav a');
+  var secIO=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){var id=e.target.id; navLinks.forEach(function(a){a.classList.toggle('on',a.getAttribute('href')==='#'+id);});} });},{rootMargin:'-45% 0px -50% 0px'});
+  ['about','work','ai','experience','toolkit','contact','top'].forEach(function(id){var el=document.getElementById(id); el&&secIO.observe(el);});
+
+  /* ---------- reveals ---------- */
+  var io=new IntersectionObserver(function(es){es.forEach(function(e){ if(e.isIntersecting){ var t=e.target; if(t.classList.contains('pcard')){t.classList.add('show');t.classList.remove('pre');} else t.classList.add('in'); io.unobserve(t);} });},{threshold:.12,rootMargin:'0px 0px -6% 0px'});
+  $$('.rv').forEach(function(el){io.observe(el);});
+  var cards=$$('.pcard');
+  cards.forEach(function(c){c.classList.add('pre'); io.observe(c);});
+
+  /* ---------- filters ---------- */
+  var filterBtns=$$('.filter'), activeF='all';
+  function updateCount(){
+    var n=cards.filter(function(c){return !c.hidden;}).length;
+    $('#count').textContent=lang==='id'?('MENAMPILKAN '+n+' PROYEK'):('SHOWING '+n+' PROJECT'+(n===1?'':'S'));
+  }
+  filterBtns.forEach(function(b){b.addEventListener('click',function(){
+    activeF=b.getAttribute('data-f');
+    filterBtns.forEach(function(x){x.setAttribute('aria-pressed',String(x===b));});
+    cards.forEach(function(c,i){
+      var show=activeF==='all'||c.getAttribute('data-cat')===activeF;
+      c.hidden=!show;
+      if(show){ c.classList.remove('show'); c.classList.add('pre'); setTimeout(function(){c.classList.add('show');c.classList.remove('pre');}, reduce?0:40+i*35); }
+    });
+    updateCount();
+  });});
+
+  /* ---------- project dialog ---------- */
+  var dlg=$('#detail'), lastFocus=null;
+  function openCard(card){
+    lastFocus=$('.c-open',card);
+    $('#d-org').textContent=$('.c-top span',card).textContent;
+    $('#d-title').textContent=$('.c-open',card).textContent;
+    var ds=$('#d-status'); ds.innerHTML='<span class="c-status mono">'+$('.c-status',card).innerHTML+'</span>'; ds.setAttribute('style',card.getAttribute('style')||'');
+    $('#d-tracks').innerHTML=$('.tracks',card).innerHTML;
+    $('#d-desc').innerHTML=$('.c-desc',card).innerHTML;
+    $('#d-role').innerHTML=$('.c-role',card).innerHTML;
+    $('#d-stack').textContent=$('.c-foot span',card).textContent.replace(/ · /g,', ');
+    if(typeof dlg.showModal==='function') dlg.showModal(); else dlg.setAttribute('open','');
+  }
+  cards.forEach(function(c){$('.c-open',c).addEventListener('click',function(){openCard(c);});});
+  function closeDlg(){ if(dlg.open){ if(dlg.close) dlg.close(); else dlg.removeAttribute('open'); } }
+  $('#d-close').addEventListener('click',closeDlg);
+  dlg.addEventListener('click',function(e){ if(e.target===dlg) closeDlg(); });
+  dlg.addEventListener('close',function(){ lastFocus&&lastFocus.focus({preventScroll:true}); });
+
+  /* ---------- init ---------- */
+  frame(); updateCount();
+  try{ if(localStorage.getItem('in-lang')==='id') setLang('id'); }catch(e){}
+})();
+</script>
+</body>
+</html>
