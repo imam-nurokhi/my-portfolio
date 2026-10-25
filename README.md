@@ -27,6 +27,10 @@ npm test           # Playwright checks against public/index.html
 BASE_URL=http://localhost:3000/ npm test   # same checks against a running server
 ```
 
+Deploys run on Vercel only (no GitHub Actions): every push builds a preview and
+`main` deploys to production. The Vercel build runs `npm run lint && npm run build`;
+run `npm test` locally before pushing.
+
 To edit content, change `public/index.html` directly. Indonesian strings live in
 the `ID` dictionary in the page's script and are matched to elements by
 `data-i18n` keys; `npm test` fails if a key is missing or orphaned.
